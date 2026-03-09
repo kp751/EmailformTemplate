@@ -1,0 +1,48 @@
+body {
+            margin: 0;
+            padding: 0;
+            background:white;
+            font-family: Arial, sans-serif;
+        }
+
+        .email-wrapper {
+            width: 600px;
+            margin: 40px auto;
+            background: whitesmoke;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .email-header {
+            background: rgb(78, 76, 234);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .email-header h1 {
+            margin: 0;
+        }
+
+        .email-content {
+            padding: 35px;
+            color: light rgb(22, 21, 21);
+            line-height: 1.6;
+        }
+
+        .highlight {
+            background: white;
+            padding: 20px;
+            border-left: 4px solid rgb(100, 183, 216);
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .email-footer {
+            background: whitesmoke;
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: rgb(58, 157, 255);
+        }
